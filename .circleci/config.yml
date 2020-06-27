@@ -10,9 +10,12 @@ jobs:
       VENDOR: 'asus'
       CODENAME: 'X00T'
       FLAVOR: 'eng'
-      TEST_BUILD: 'true'
+      PB_OFFICIAL: 'true'
       CHANGELOG: |
-        - Sync Last Source
+        - Updated prebuilt kernel
+        - Updated encrytion blobs from stock
+        - Fixed Stock rom flashing
+        - For otg while keeping the otg connected in recovery reboot to recovery once again from the menu in the recovery
     working_directory: /home/builder/pitchblack
     steps:
       - run:
