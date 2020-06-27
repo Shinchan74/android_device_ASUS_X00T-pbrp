@@ -19,8 +19,8 @@ PRODUCT_RELEASE_NAME := X00T
 
 $(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common PitchBlack configuration
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=sdm660
