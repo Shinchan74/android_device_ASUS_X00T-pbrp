@@ -5,17 +5,20 @@ jobs:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
-      VERSION: '2.9.1'
+      VERSION: '3.0.0'
       MAINTAINER: '@akshat28'
-      VENDOR: 'asus'
+      VENDOR: 'ASUS'
       CODENAME: 'X00T'
       FLAVOR: 'eng'
       PB_OFFICIAL: 'true'
       CHANGELOG: |
-        - Updated prebuilt kernel
-        - Updated encrytion blobs from stock
-        - Fixed Stock rom flashing
-        - For otg while keeping the otg connected in recovery reboot to recovery once again from the menu in the recovery
+        - Bringup 3.0 
+        - Source side changes 
+        - Fully Redesigned UI 
+        - New Android like Power Menu (Activated via power key hold) 
+        - Flashlight toggled by Vol up(+) on hold 
+        - Flashlight toggle on Lockscreen 
+        - Etc.
     working_directory: /home/builder/pitchblack
     steps:
       - run:

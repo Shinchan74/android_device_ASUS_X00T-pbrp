@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-DEVICE_PATH := device/asus/X00T
+DEVICE_PATH := device/ASUS/X00T
 
 # Architecture
 TARGET_ARCH := arm64
