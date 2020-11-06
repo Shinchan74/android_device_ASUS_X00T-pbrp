@@ -31,7 +31,4 @@ workflows:
   build_and_test:
     jobs:
       - build:
-          filters:
-            branches:
-              only: 'android-9.0'
-          context: Shinchan
+
